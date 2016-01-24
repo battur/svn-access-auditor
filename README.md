@@ -1,7 +1,7 @@
 # svn-access-auditor
 SVN access auditor and report generator.
 
-When you have 1000+ users accessing 250+ svn repositories/projects, you would like to know how many users have what type of access rights to those repositories. Some repositories may host sensitive source code that you want to conceal from certain groups. This small tool processes svn access configuration file and generates an HTML report that makes sense. The report has 4 parts:
+When you have 1000+ users accessing 250+ svn repositories/projects, you would like to know who have what type of access rights to those repositories. Some repositories may host sensitive source code that you want to conceal from certain groups. This small tool processes svn access configuration file and generates an HTML report that makes sense. The report has 4 parts:
 
 1. Summary: Number of users and repositories. Quick links to other parts of the report.
 2. List of all repositories: For each of repositories, it lists groups of readers, groups of writers, and numbers for each. Repositories with the same readers and writers are grouped together, so that the report would look compact and clear.
