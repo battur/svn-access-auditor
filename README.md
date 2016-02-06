@@ -8,7 +8,7 @@ When you have 1000+ users accessing 250+ svn repositories/projects, you would li
 3. Mapping of users to groups.
 4. List of all users: For each of users, it lists readable and writable repositories. Users with the same readable and writable repositories are grouped together. 
 
-TODO: Here is an example of a svn access confiruation file. And here is a report generated from the configuration file. Cross linking between repositories, groups, and users makes auditing access rights so much easier. As you see, this is an interesting example of graph problems.
+TODO: Here is an example of a svn access configuration file. And here is a report generated from that configuration file. Cross linking between repositories, groups, and users makes auditing access rights so much easier. As you see, this is an interesting example of graph problems.
 
 Author: Battur Sanchin (battursanchin@gmail.com)
 
